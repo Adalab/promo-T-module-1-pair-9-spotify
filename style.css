@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    min-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: black;
+    height: 5.0rem;
+
+}
+.container1{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    height: 3.5rem;
+}
+.menu{
+    width: 20px;
+    height: 3.0rem;
+}
+.seccion1{
+    padding-top: 9rem;
+    padding-left: 2rem;
+    background-color: rgb(126, 186, 235);
+    height: 50rem;
+    color: white;
+    font-weight: bold;
+    
+}
+.seccion2{
+    background-color: white;
+    min-width: 480px;
+}
+.articulo{
+    display: flex;
+    font-size: 1.5rem;
+}
+.fotoarticulos{
+    width: 75px;
+}
+.tituloseccion1{
+    font-size: 6rem;
+}
+.textoseccion1{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.textopequeño1{
+    font-size: 1.5rem;
+}
+.botonplanes{
+    background-color: green;
+    width: 7rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.tituloseccion2{
+    font-weight: bold;
+    font-size: 3rem;
+    width: 30rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
