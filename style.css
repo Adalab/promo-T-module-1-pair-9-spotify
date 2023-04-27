@@ -1,73 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+  font-size: 62.5%;
+  min-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
-html{
-    font-size: 62.5%;
-    min-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+header {
+  background-color: black;
+  height: 5rem;
 }
-header{
-    background-color: black;
-    height: 5.0rem;
+.container1 {
+  display: flex;
+}
+.logo {
+  width: 130px;
+  height: 40px;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+.menu {
+  width: 20px;
+  height: 3rem;
+  display: inline-block;
+  margin-left: 31rem;
+  padding-top: 1rem;
+}
+.seccion1 {
+  padding-top: 9rem;
+  padding-left: 2rem;
+  background-color: rgb(126, 186, 235);
+  height: 50rem;
+  color: white;
+  font-weight: bold;
+}
 
+.imagen-baile {
 }
-.container1{
-    display: flex;
+
+.seccion2 {
+  background-color: white;
+  min-width: 480px;
 }
-.logo{
-    width: 100px;
-    height: 3.5rem;
+.articulo {
+  display: flex;
+  font-size: 1.5rem;
 }
-.menu{
-    width: 20px;
-    height: 3.0rem;
+.fotoarticulos {
+  width: 75px;
 }
-.seccion1{
-    padding-top: 9rem;
-    padding-left: 2rem;
-    background-color: rgb(126, 186, 235);
-    height: 50rem;
-    color: white;
-    font-weight: bold;
-    
+.tituloseccion1 {
+  font-size: 6rem;
 }
-.seccion2{
-    background-color: white;
-    min-width: 480px;
+.textoseccion1 {
+  font-size: 3rem;
+  padding-top: 1rem;
 }
-.articulo{
-    display: flex;
-    font-size: 1.5rem;
+.textopequeño1 {
+  font-size: 1.5rem;
 }
-.fotoarticulos{
-    width: 75px;
+
+.boton {
+  display: flex;
+  justify-content: center;
 }
-.tituloseccion1{
-    font-size: 6rem;
+
+.botonplanes {
+  display: inline-block;
+  background-color: green;
+  width: 7rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding: 20px 30px;
+  padding-left: auto;
+  text-align: center;
+  border-radius: 20px;
+  font: small-caps;
 }
-.textoseccion1{
-    font-size: 3rem;
-    padding-top: 1rem;
-}
-.textopequeño1{
-    font-size: 1.5rem;
-}
-.botonplanes{
-    background-color: green;
-    width: 7rem;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-}
-.tituloseccion2{
-    font-weight: bold;
-    font-size: 3rem;
-    width: 30rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+.tituloseccion2 {
+  font-weight: bold;
+  font-size: 3rem;
+  width: 30rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
