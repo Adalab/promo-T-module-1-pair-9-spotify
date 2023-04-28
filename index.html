@@ -7,6 +7,8 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="style" href="./tablet.css" media=" sreen and (min-width: 480px)">
+    <link rel="stylesheet" href="./laptop.css" media="screen and (min-width: 1000px)">
   </head>
   <body>
     <header class="container1">
@@ -20,7 +22,7 @@
           Escucha millones de canciones sin anuncios, a la carta y sin conexión.
         </p>
         <div class="boton">
-          <span class="botonplanes"><a href="">ver planes</a></span>
+          <span class="botonplanes"><a class="textoboton" href="">ver planes</a></span>
         </div>
         <p class="textopequeño1">
           Rigen términos y condiciones. Los tres meses gratis no están
@@ -29,51 +31,56 @@
       </section>
       <section class="seccion2">
         <p class="tituloseccion2">¿Por qué pasarte a Premium?</p>
-        <article class="articulo">
-          <img class="fotoarticulos" src="./img/benefit-1.png" />
+        <div class="containerarticulos">
+          <article class="articulo" id="articulo1">
+            <img class="fotoarticulos" src="./img/benefit-1.png" />
+              <div>
+                  <p class="pp-strong-1">Descarga música.</p>
+                  <p class="pp-ben1">Llevala siempre contigo.</p>
+              </div>
+          </article>
+          <article class="articulo" id="articulo2">
+            <img class="fotoarticulos" src="./img/benefit-2.png" />
+              <div>
+                  <p class="pp-strong-2">Sin anuncios.</p>
+                  <p class="pp-ben2">Disfruta de música sin interrupciones</p>
+              </div>
+          </article>
+          <article class="articulo" id="articulo3">
+            <img class="fotoarticulos" src="./img/benefit-3.png" />
+              <div>
+                  <p class="pp-strong-3">Escucha lo que quieras.</p>
+                  <p class="pp-ben3">Incluso en el móvil</p>
+              </div>
+          </article>
+          <article class="articulo" id="articulo4">
+            <img class="fotoarticulos" src="./img/benefit-4.png" />
             <div>
-                <p class="pp-strong-1">Descarga música.</p>
-                <p class="pp-ben1">Llevala siempre contigo.</p>
-            </div>
-        </article>
-        <article class="articulo">
-          <img class="fotoarticulos" src="./img/benefit-2.png" />
-            <div>
-                <p class="pp-strong-2">Sin anuncios.</p>
-                <p class="pp-ben2">Disfruta de música sin interrupciones</p>
-            </div>
-        </article>
-        <article class="articulo">
-          <img class="fotoarticulos" src="./img/benefit-3.png" />
-            <div>
-                <p class="pp-strong-3">Escucha lo que quieras.</p>
-                <p class="pp-ben3">Incluso en el móvil</p>
-            </div>
-        </article>
-        <article class="articulo">
-          <img class="fotoarticulos" src="./img/benefit-4.png" />
-          <div>
-            <p class="pp-strong-4">Salta todas las canciones que quieras.</p>
-            <p class="pp-ben4">Simplemente dale a siguiente</p>
-            </div>
-        </article>
+              <p class="pp-strong-4">Salta todas las canciones que quieras.</p>
+              <p class="pp-ben4">Simplemente dale a siguiente</p>
+              </div>
+          </article>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="derecha">
+      <div class="logoespaña">
           <p>España</p>
           <img src="./img/es.svg" />
-          &copy; 2019 Spotify AB
       </div>
       <div class="abajofooter">
-        <nav class="menu-footer">
-          <ul>
-            <li><a href="">Legal</a></li>
-            <li><a href="">Cookies</a></li>
-            <li><a href="">Información sobre los anuncios</a></li>
-          </ul>
-        </nav>
-        &copy; 2019 Spotify AB
+        <div class="a-i-footer">
+          <nav class="menu-footer">
+            <ul>
+              <li><a href="">Legal</a></li>
+              <li><a href="">Cookies</a></li>
+              <li><a href="">Información sobre los anuncios</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="a-d-footer">
+          &copy; 2019 Spotify AB
+        </div>
       </div>
     </footer>
   </body>
