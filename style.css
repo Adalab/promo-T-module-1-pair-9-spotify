@@ -9,24 +9,22 @@ html {
   --colorfondo1: rgb(126, 186, 235);
   --pesoletra: bold;
 }
-
 body {
   width: 100vw;
 }
-
 .container1 {
-    background-color: var(--colorsecundario);
-    height: 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    align-items: center;
-    position: sticky;
-    left: 0;
-    top: 0;
-    /**width: 100%;**/
-    /** Al poner el ancho para que la barra fija ocupe toda la ventana se me va el icono de menu **/
-  }
+  background-color: var(--colorsecundario);
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  /**width: 100%;**/
+  /** Al poner el ancho para que la barra fija ocupe toda la ventana se me va el icono de menu **/
+}
 .logo {
   width: 130px;
   height: 40px;
@@ -39,19 +37,19 @@ body {
 }
 
 .seccion1 {
-    background-color: var(--colorfondo1);
-    height: 50vh;
-    padding-top: 10rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
-    color: white;
-    font-weight: var(--pesoletra);
-    /**background-image: url(./img/premium_dancer.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: top;**/
-    /**margin-top: 6rem;**/
+  background-color: var(--colorfondo1);
+  height: 50vh;
+  padding-top: 10rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  color: white;
+  font-weight: var(--pesoletra);
+  /**background-image: url(./img/premium_dancer.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;**/
+  /**margin-top: 6rem;**/
 }
 .seccion2 {
   background-color: var(--colorprimario);
@@ -83,7 +81,6 @@ body {
   width: 100%;
   padding-bottom: 2rem;
 }
-
 .boton {
   display: flex;
   justify-content: center;
@@ -91,7 +88,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .botonplanes {
   font-size: 1.8rem;
   display: inline-block;
@@ -145,7 +141,6 @@ article img {
   width: 75px;
   height: 75px;
 }
-
 .footer {
   background-color: var(--colorsecundario);
   color: var(--colorprimario);
@@ -155,30 +150,24 @@ article img {
   padding: 1%;
   width: 100%;
 }
-
 .menu-lista {
   display: flex;
   width: 50%;
   align-self: flex-end;
 }
-
 .nav-menu-footer {
   width: 100%;
 }
-
 .ul-menu-lista {
   display: flex;
   gap: 3%;
 }
-
 .lang-copy {
   display: flex;
 }
-
 .img-lang {
   width: 50%;
 }
-
 .texto {
   display: flex;
   flex-direction: column;
