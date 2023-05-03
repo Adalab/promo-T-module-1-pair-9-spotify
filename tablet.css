@@ -9,13 +9,13 @@ html {
     --pesoletra: bold;
   }
 .container1 {
-    background-color: yellow;
+    background-color: var(--colorsecundario);
     height: 2.5rem;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
     align-items: center;
-    position: fixed;
+    position: sticky;
     left: 0;
     top: 0;
     /**width: 100%;**/
@@ -25,15 +25,23 @@ html {
     width: 130px;
     height: 40px;
   }
-  .menus{
+  .lista{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
+  }
+  .Descarga{
+    padding-right: 1.5rem;
+    border-right: 1px solid #9B9A9A;
+  }
+.menus{
+    display: inline-block;
+    /**flex-direction: row;
+    gap: 2rem;**/
     
   }
 .menu {
-    width: 20px;
-    height: 3rem;
+    display: none;
   }
 body{
     width: 100vw;
@@ -51,20 +59,9 @@ body{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
-    margin-top: 6rem;
 }
-.seccion2 {
-    background-color: var(--colorprimario);
-    height: 60rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-.fotoarticulos {
-    width: 75px;
-  }
+
+
 .tituloseccion1 {
     font-size: 5rem;
     width: 100%;
@@ -106,6 +103,21 @@ body{
 .botonplanes a{
     color: white;
   }
+.seccion2 {
+    background-color: var(--colorprimario);
+    height: 60rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .containerarticulos{
+    display: inline-block;
+  }
+  .fotoarticulos {
+      width: 75px;
+    }
 .tituloseccion2 {
     font-weight: var(--pesoletra);
     font-size: 3rem;
@@ -117,15 +129,17 @@ body{
     padding-bottom: 2rem;
   }
 .articulo {
-    display: flex;
+    display: inline-block;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
     margin-left: 3rem;
+    width: 45vw;
+    padding-bottom: 2rem;
   }
 article div{
-    display: flex;
+    display: inline-block;
     margin-left: 2rem;
     flex-direction: column;
+    width: 60%;
   }
 .pp-strong-1, .pp-strong-2, .pp-strong-3, .pp-strong-4{
     font-weight: var(--pesoletra);
