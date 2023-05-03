@@ -29,11 +29,21 @@ html {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    color: white;
+    list-style: none;
+    align-items: center;
+    padding-right: 2rem;
   }
-  .Descarga{
+  .division{
+    font-size: 2rem;
+  }
+  header div{
+    list-style: none;
+  }
+  /**.Descarga{
     padding-right: 1.5rem;
     border-right: 1px solid #9B9A9A;
-  }
+  }**/
 .menus{
     display: inline-block;
     /**flex-direction: row;
@@ -60,8 +70,6 @@ body{
     background-position-x: right;
     background-position-y: top;
 }
-
-
 .tituloseccion1 {
     font-size: 5rem;
     width: 100%;
@@ -103,6 +111,8 @@ body{
 .botonplanes a{
     color: white;
   }
+
+
 .seccion2 {
     background-color: var(--colorprimario);
     height: 60rem;
