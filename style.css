@@ -32,8 +32,14 @@ body {
 .menu {
   width: 3rem;
 }
-.menus{
+.menus {
   display: none;
+}
+
+.enlace {
+  text-decoration: none;
+  color: var(--colorprimario);
+  font-weight: bold;
 }
 
 .seccion1 {
@@ -52,14 +58,7 @@ body {
   /**margin-top: 6rem;**/
 }
 
-
-
-
 /** En esta seccion hay que mirar la parte azul orque e tamaño del titulo estaba demasiado grande y al bajarlo se descolocó **/
-
-
-
-
 
 .seccion2 {
   background-color: var(--colorprimario);
@@ -67,7 +66,7 @@ body {
   display: block;
   width: 100%;
 }
-.containerarticulos{
+.containerarticulos {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -182,7 +181,7 @@ article img {
   display: flex;
   flex-direction: column;
 }
-.pp-ben{
+.pp-ben {
   font-size: 1rem;
 }
 /* footer {
