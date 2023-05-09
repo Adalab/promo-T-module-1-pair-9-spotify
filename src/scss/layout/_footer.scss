@@ -1,8 +1,34 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
-}
+.footer {
+    background-color: var(--colorsecundario);
+    color: var(--colorprimario);
+    font-weight: var(--pesoletra);
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    width: 100%;
+  }
+  .footer__lista {
+    display: flex;
+    width: 50%;
+    align-self: flex-end;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav__lista {
+    display: flex;
+    gap: 3%;
+  }
+  .footer__langcopy {
+    display: flex;
+  }
+  .footer__langcopy--img {
+    width: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+  } 
+ 
+
+
+

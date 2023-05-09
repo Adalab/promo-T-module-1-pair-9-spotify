@@ -1,0 +1,28 @@
+  .header {
+    background-color: $colorsecundario;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
+    &__img--logo {
+        width: 130px;
+            height: 40px;
+    }
+    &__img--menu {
+        width: 3rem;
+    }
+  }
+
+  .menus {
+    display: none;
+    $__lista--link {
+        text-decoration: none;
+        color: var(--colorprimario);
+        font-weight: bold;
+    }
+  }
+  
