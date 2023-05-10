@@ -1,5 +1,5 @@
 @import 'core/reset';
-@import 'core/variables';
+@import './core/variables';
 @import 'layout/cabecera';
 @import 'layout/seccionazul';
 @import 'layout/seccionblanca';
@@ -13,8 +13,7 @@
 // @import 'pages/index';
 html {
     font-size: 62.5%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   body {

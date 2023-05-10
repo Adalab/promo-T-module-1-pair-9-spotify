@@ -19,7 +19,7 @@
 
   .menus {
     display: none;
-    $__lista--link {
+    &__lista--link {
         text-decoration: none;
         color: var(--colorprimario);
         font-weight: bold;
